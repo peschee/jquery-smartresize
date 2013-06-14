@@ -1,0 +1,11 @@
+{
+  "name": "jquery-smartresize",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peschee/jquery-smartresize.git"
+  }
+}
