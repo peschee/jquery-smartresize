@@ -24,8 +24,8 @@
         };
     };
 
-    // smartscroll
-    jQuery.fn[sr] = function(fn, threshhold){  return fn ? this.bind('scroll', debounce(fn, threshhold)) : this.trigger(sr); };
+    // smartresize
+    jQuery.fn[sr] = function(fn, threshhold){  return fn ? this.bind('resize', debounce(fn, threshhold)) : this.trigger(sr); };
 
-})(jQuery,'smartscroll');
+})(jQuery,'smartresize');
 
